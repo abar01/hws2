@@ -13,6 +13,8 @@ beforeEach(() => {
     ]
 })
 
+
+
 test('filter by all', () => {
     const newState = filterAffairs(initialState, 'all')
     expect(newState.length).toBe(5)
