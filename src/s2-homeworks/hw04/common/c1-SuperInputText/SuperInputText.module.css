@@ -1,20 +1,41 @@
 .input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
 }
 
 .input {
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    outline: none;
+
 }
 
 .inputWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
 }
 
 .superInput {
 }
 
 .errorInput {
+    border: 1px solid #CC1439
 }
 
 .errorInput:focus {
+    border-color: #CC1439;
+    box-shadow: 0 0 5px rgba(204, 20, 57, 0.5);
 }
 
 .error {
+    color: #CC1439;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 10px;
 }
+
